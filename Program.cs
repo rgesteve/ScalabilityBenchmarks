@@ -1,13 +1,13 @@
+using System.IO;
 using System.CommandLine;
 using System.CommandLine.Invocation;
 using System.CommandLine.Builder;
-//using System.CommandLine.Hosting;
+using System.CommandLine.Hosting;
 using System.CommandLine.NamingConventionBinder;
 using System.CommandLine.Parsing;  // needed for Parser.InvokeAsync
 
-#if false
-using GHConsole2;
-#else
+using Microsoft.Extensions.Hosting;
+
 namespace GHConsole2;
 
 public class Program
@@ -24,19 +24,27 @@ public class Program
 
       host.Run();
 #else
-#if false
-        IConfiguration config = new ConfigurationBuilder()
-        .AddJsonFile("appsettings.json", true, true)
-        .Build();
 
-        Console.WriteLine($"****** Hello, world! {config["name"]} ****");
-#else
 	//await BuildCommandLine().Build().InvokeAsync(args);
 
-	var parser = BuildCommandLine().Build();
+	var cmdBuilder = BuildCommandLine()
+	.UseHost( _ => {
+	  return /* Host.CreateDefaultBuilder() */ new HostBuilder()
+	    .ConfigureHostConfiguration(
+	      configHost => { configHost.SetBasePath(Directory.GetCurrentDirectory()); }
+	    )
+	    .ConfigureAppConfiguration(
+	      (_, config) => {
+	        //config.Sources.Clear();
+	        //config.AddJsonFile(Path.Combine(System.AppContext.BaseDirectory, "appsettings.json"), optional : true);
+		config.AddJsonFile("appsettings.json", true, true);
+	      });
+	});
+//	.UseDefaults();
+
+	var parser = cmdBuilder.Build();
       await parser.InvokeAsync(args);
 
-#endif
 #endif
     }
 
@@ -52,9 +60,9 @@ public class Program
 
     static void Run(IHost host, string name)
     {
-      Console.WriteLine($"***** From the root command, got argument {name}...");
+      var configuration = host.Services.GetRequiredService<IConfiguration>();
+      var nameFromConf = configuration["name"];
+      Console.WriteLine($"***** From the root command, got argument {name}, and from config {nameFromConf}...");
     }
 
 }
-
-#endif
