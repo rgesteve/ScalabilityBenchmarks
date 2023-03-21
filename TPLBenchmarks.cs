@@ -60,36 +60,40 @@ public class TPLBenchmarks
             tfBlock.Post(i);
         }
 
-	Action< Task<int> > whenReady = task => {
-          int res = task.Result;
-          Console.WriteLine($"In action: {res}...");
-	};
+        Action<Task<int>> whenReady = task =>
+        {
+            int res = task.Result;
+            Console.WriteLine($"In action: {res}...");
+        };
 
-	for (int i = 0; i < 10; i++)
+        for (int i = 0; i < 10; i++)
         {
             Task<int> resTask = tfBlock.ReceiveAsync();
-	    Task t = resTask.ContinueWith(whenReady);
-	    t.Wait();  // is this necessary?
+            Task t = resTask.ContinueWith(whenReady);
+            t.Wait();  // is this necessary?
         }
         Console.WriteLine("Done!");
     }
 
     public static void SimpleExecBlockConfig()
     {
-      var generator = new Random();
-      Action<int> fun = n => {
-        Thread.Sleep(generator.Next(1000));
-	Console.WriteLine($"Just completed for {n}");
-      };
-      var actionBlock = new ActionBlock<int>(fun, new ExecutionDataflowBlockOptions {
-	MaxDegreeOfParallelism = 2
-      });
-      for (int i = 0; i < 10; i++) {
-        Console.WriteLine($"Posting {i}");
-        actionBlock.Post(i);
-      }
-      actionBlock.Complete();
-      actionBlock.Completion.Wait(); // does this not know how many tasks it's waiting on?
-      Console.WriteLine("Done!");
+        var generator = new Random();
+        Action<int> fun = n =>
+        {
+            Thread.Sleep(generator.Next(1000));
+            Console.WriteLine($"Just completed for {n}");
+        };
+        var actionBlock = new ActionBlock<int>(fun, new ExecutionDataflowBlockOptions
+        {
+            MaxDegreeOfParallelism = 2
+        });
+        for (int i = 0; i < 10; i++)
+        {
+            Console.WriteLine($"Posting {i}");
+            actionBlock.Post(i);
+        }
+        actionBlock.Complete();
+        actionBlock.Completion.Wait(); // does this not know how many tasks it's waiting on?
+        Console.WriteLine("Done!");
     }
 }

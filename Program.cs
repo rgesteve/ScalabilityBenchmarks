@@ -67,7 +67,7 @@ public class Program
 
     static void Run(IHost host, int maxpar)
     {
-    Console.WriteLine("running here");
+        Console.WriteLine("running here");
         var configuration = host.Services.GetRequiredService<IConfiguration>();
         var nameFromConf = configuration["name"];
         Console.WriteLine($"***** From the root command, got argument {maxpar}, and from config {nameFromConf}...");
@@ -81,12 +81,13 @@ public class Program
         //TPLBenchmarks.SimpleSync();
         //TPLBenchmarks.SimpleAsync();
         //TPLBenchmarks.SimpleAsyncContinuation();
-	//TPLBenchmarks.SimpleExecBlockConfig();
-	//TPLSingleProducer.RunConstrained(true);
-	TPLFullPipeline.Run();
+        //TPLBenchmarks.SimpleExecBlockConfig();
+        //TPLSingleProducer.RunConstrained(true);
+        //TPLFullPipeline.Run();
+        PForPi.Run();
 
         Console.WriteLine("Ran all workloads!");
-//	Console.ReadKey();
+        //	Console.ReadKey();
     }
 
 }
