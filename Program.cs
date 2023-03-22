@@ -71,6 +71,11 @@ public class Program
         var configuration = host.Services.GetRequiredService<IConfiguration>();
         var nameFromConf = configuration["name"];
         Console.WriteLine($"***** From the root command, got argument {maxpar}, and from config {nameFromConf}...");
+
+        ThreadPool.GetMaxThreads(out int maxWorkerThreads, out _);
+        var nProc = Environment.ProcessorCount;
+        Console.WriteLine($"Ready to run on {nProc} processors, with runtime set to use at most {maxWorkerThreads} threads.");
+
         Console.ReadKey();
         RunWorkloads();
         Console.WriteLine("Done driver!");

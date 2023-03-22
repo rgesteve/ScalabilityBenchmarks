@@ -4,6 +4,9 @@
     <TargetFramework>net7.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <!--
+    <GenerateRuntimeConfigurationFiles>false</GenerateRuntimeConfigurationFiles>
+    -->
     <UserSecretsId>dotnet-GHConsole2-2ae0df45-8721-491e-bae1-5fd7e16d676c</UserSecretsId>
   </PropertyGroup>
 
@@ -21,6 +24,12 @@
     <None Update="data/*">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <!--
+    <None Update="GHConsole2.runtimeconfig.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    -->
+
   </ItemGroup>
 
 </Project>
