@@ -1,0 +1,3 @@
+[submodule "dotnet_performance"]
+	path = dotnet_performance
+	url = https://github.com/dotnet/performance.git
