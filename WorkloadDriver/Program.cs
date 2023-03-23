@@ -1,4 +1,5 @@
 using System.IO;
+using System.Diagnostics;
 using System.Threading;
 using System.Threading.Tasks.Dataflow;
 
@@ -70,7 +71,8 @@ public class Program
         Console.WriteLine("running here");
         var configuration = host.Services.GetRequiredService<IConfiguration>();
         var nameFromConf = configuration["name"];
-        Console.WriteLine($"***** From the root command, got argument {maxpar}, and from config {nameFromConf}...");
+	var myPID = Process.GetCurrentProcess().Id;
+        Console.WriteLine($"***** From the root command (pid={myPID}), got argument {maxpar}, and from config {nameFromConf}...");
 
         ThreadPool.GetMaxThreads(out int maxWorkerThreads, out _);
         var nProc = Environment.ProcessorCount;
