@@ -60,6 +60,27 @@ public class Program
 	}
 	var trace = TraceLog.OpenOrConvert(TraceLog.CreateFromEventPipeDataFile(inputfile));
 	Console.WriteLine($"Got a trace with {trace.Events.Count()} events.");
-        Console.ReadKey();
+	Console.WriteLine($"and {trace.CallStacks.Count()} callstacks.");
+	Console.WriteLine($"Got a trace with {trace.Processes.Count()} processes.");
+
+#if false
+	//Console.WriteLine($"The stack trace as a string is {trace.CallStacks.ToString()}.");
+	//foreach (var s in trace.CallStacks.Take(20)) {
+	foreach (var s in trace.CallStacks) {
+	  Console.WriteLine($"stack: {s.CodeAddress.FullMethodName}");
+	}
+#endif
+
+#if false
+	foreach (var p in trace.Processes) {
+	  Console.WriteLine($"Got a process with name {p.Name}, which ran for {p.CPUMSec} msec.");
+	}
+#else
+	//foreach (var e in trace.Events.Take(20)) {
+	foreach (var e in trace.Events) {
+  	  Console.WriteLine($"Event: {e.EventName}.");
+	}
+#endif
+        // Console.ReadKey();
     }
 }
