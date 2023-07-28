@@ -13,6 +13,7 @@ using Microsoft.Diagnostics.Runtime;
 using Microsoft.Diagnostics.Tracing.Etlx;
 using Microsoft.Diagnostics.Tracing.Parsers;
 using Microsoft.Diagnostics.Tracing.Parsers.Clr;
+using Microsoft.Diagnostics.Tracing.Stacks;
 
 using Microsoft.Extensions.Hosting;
 
@@ -59,9 +60,21 @@ public class Program
 	   return;
 	}
 	var trace = TraceLog.OpenOrConvert(TraceLog.CreateFromEventPipeDataFile(inputfile));
-	Console.WriteLine($"Got a trace with {trace.Events.Count()} events.");
+	Console.WriteLine($"Got a trace on machine [{trace.MachineName}], with {trace.Events.Count()} events.");
+#if false
+	Console.WriteLine($"The trace is of type {trace.GetType()}."); // TraceLog
+	Console.WriteLine($"and the events of type {trace.Events.GetType()}."); // TraceEvents
+#endif
 	Console.WriteLine($"and {trace.CallStacks.Count()} callstacks.");
 	Console.WriteLine($"Got a trace with {trace.Processes.Count()} processes.");
+	Console.WriteLine($"At a sample interval of {trace.SampleProfileInterval.GetType()}.");
+
+	var evstacks = new TraceEventStackSource(trace.Events);
+	Console.WriteLine($"got a stacksource of type {evstacks.GetType()}.");
+	var ctree = new CallTree(ScalingPolicyKind.TimeMetric);
+	ctree.StackSource = evstacks;
+	// Console.WriteLine($"The callstack got at its tip {ctree.Root}.");  // this dumps root on xml format
+	Console.WriteLine($"The callstack's root's name: {ctree.Root.Name}, which has {ctree.Root.Callees.Count} callees.");
 
 #if false
 	//Console.WriteLine($"The stack trace as a string is {trace.CallStacks.ToString()}.");
@@ -72,6 +85,7 @@ public class Program
 #endif
 
 #if false
+#if false
 	foreach (var p in trace.Processes) {
 	  Console.WriteLine($"Got a process with name {p.Name}, which ran for {p.CPUMSec} msec.");
 	}
@@ -80,6 +94,7 @@ public class Program
 	foreach (var e in trace.Events) {
   	  Console.WriteLine($"Event: {e.EventName}.");
 	}
+#endif
 #endif
         // Console.ReadKey();
     }
