@@ -64,11 +64,17 @@ public class Program
 #if false
 	Console.WriteLine($"The trace is of type {trace.GetType()}."); // TraceLog
 	Console.WriteLine($"and the events of type {trace.Events.GetType()}."); // TraceEvents
-#endif
+
 	Console.WriteLine($"and {trace.CallStacks.Count()} callstacks.");
+#endif
 	Console.WriteLine($"Got a trace with {trace.Processes.Count()} processes.");
 	Console.WriteLine($"At a sample interval of {trace.SampleProfileInterval.GetType()}.");
 
+	foreach (var evt in trace.Events) {
+	  Console.WriteLine($"Event name: {evt.EventName}, timestamp: {evt.TimeStamp}");
+	}
+
+#if false
 	var evstacks = new TraceEventStackSource(trace.Events);
 	Console.WriteLine($"got a stacksource of type {evstacks.GetType()}.");
 	var ctree = new CallTree(ScalingPolicyKind.TimeMetric);
@@ -94,6 +100,7 @@ public class Program
 	foreach (var e in trace.Events) {
   	  Console.WriteLine($"Event: {e.EventName}.");
 	}
+#endif
 #endif
 #endif
         // Console.ReadKey();
