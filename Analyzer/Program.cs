@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using System.Linq;
 using System.Reflection;
 using System.Threading;
 
@@ -70,14 +71,31 @@ public class Program
 	Console.WriteLine($"Got a trace with {trace.Processes.Count()} processes.");
 	Console.WriteLine($"At a sample interval of {trace.SampleProfileInterval.GetType()}.");
 
+	Dictionary<string, Period> corr = new();
+
 	foreach (var evt in trace.Events) {
 	  Console.WriteLine($"Event name: {evt.EventName} (from provider {evt.ProviderName}), timestamp: {evt.TimeStamp}, relative: {evt.TimeStampRelativeMSec}");
   	  Console.WriteLine($"Event : {evt.EventName} ({evt.PayloadNames.Length}: {string.Join(',', evt.PayloadNames)})");
 	  if (evt.EventName == "Connection/Start" || evt.EventName == "Connection/Stop") {
-	    var connId = evt.PayloadByName("connectionId");
-    	    Console.WriteLine($"*** Event : {connId}.");
+	    var connId = evt.PayloadByName("connectionId").ToString();
+	    if (connId == null) continue;
+	    if (!corr.ContainsKey(connId)) {
+	       corr.Add(connId, new Period());
+	       corr[connId].Begin = evt.TimeStampRelativeMSec;
+	    } else {
+    	       corr[connId].End = evt.TimeStampRelativeMSec;
+	    }
+    	    Console.WriteLine($"*** Connection Event : {connId} (dict lenght: {corr.Count}).");
 	  }
 	}
+
+	List<double> durations = new();
+	foreach(KeyValuePair<string,Period> kvp in corr) {
+	  if ((kvp.Value.Begin is double beg) && (kvp.Value.End is double end)) {
+	    durations.Add(end - beg);
+	  }
+	}
+ 	Console.WriteLine($"*** calculated {durations.Count} for this run, with an average of: {durations.Average()}.");
 
 #if false
 	var evstacks = new TraceEventStackSource(trace.Events);
@@ -109,5 +127,11 @@ public class Program
 #endif
 #endif
         // Console.ReadKey();
+    }
+
+    public class Period
+    {
+      public double? Begin { get; set; }
+      public double? End { get; set; }
     }
 }
