@@ -1,0 +1,1 @@
+/home/ubuntu/ScalabilityBenchmarks/Analyzer/Program.cs(75,69): error CS1955: Non-invocable member 'Array.Length' cannot be used like a method. [/home/ubuntu/ScalabilityBenchmarks/Analyzer/Analyzer.csproj]

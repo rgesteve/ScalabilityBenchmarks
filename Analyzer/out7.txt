@@ -1,0 +1,390 @@
+***** From the root command, got argument /home/ubuntu/application.12-04-07-24-19.nettrace...
+Got a trace on machine [], with 193 events.
+Got a trace with 1 processes.
+At a sample interval of System.TimeSpan.
+Event name: ProcessInfo (from provider Microsoft-DotNETCore-EventPipe), timestamp: 12/04/2023 07:24:18, relative: 39874.405287
+Event : ProcessInfo (3: CommandLine,OSInformation,ArchInformation)
+Event name: ProcessInfo (from provider Microsoft-DotNETCore-EventPipe), timestamp: 12/04/2023 07:24:18, relative: 39979.75168
+Event : ProcessInfo (3: CommandLine,OSInformation,ArchInformation)
+Event name: Runtime/Start (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40075.298294
+Event : Runtime/Start (15: ClrInstanceID,Sku,BclMajorVersion,BclMinorVersion,BclBuildNumber,BclQfeNumber,VMMajorVersion,VMMinorVersion,VMBuildNumber,VMQfeNumber,StartupFlags,StartupMode,CommandLine,ComObjectGuid,RuntimeDllPath)
+Event name: Method/DCStopInit (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40075.302985
+Event : Method/DCStopInit (1: ClrInstanceID)
+Event name: Loader/ModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40095.337407
+Event : Loader/ModuleDCStop (12: ModuleID,AssemblyID,ModuleFlags,ModuleILPath,ModuleNativePath,ManagedPdbSignature,ManagedPdbAge,ManagedPdbBuildPath,NativePdbSignature,NativePdbAge,NativePdbBuildPath,ModuleILFileName)
+Event name: Loader/DomainModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40095.339437
+Event : Loader/DomainModuleDCStop (7: ModuleID,AssemblyID,AppDomainID,ModuleFlags,ModuleILPath,ModuleNativePath,ClrInstanceID)
+Event name: Loader/AssemblyDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40095.345817
+Event : Loader/AssemblyDCStop (6: AssemblyID,AppDomainID,AssemblyFlags,FullyQualifiedAssemblyName,BindingID,ClrInstanceID)
+Event name: Loader/ModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40095.35072
+Event : Loader/ModuleDCStop (12: ModuleID,AssemblyID,ModuleFlags,ModuleILPath,ModuleNativePath,ManagedPdbSignature,ManagedPdbAge,ManagedPdbBuildPath,NativePdbSignature,NativePdbAge,NativePdbBuildPath,ModuleILFileName)
+Event name: Loader/DomainModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40095.351805
+Event : Loader/DomainModuleDCStop (7: ModuleID,AssemblyID,AppDomainID,ModuleFlags,ModuleILPath,ModuleNativePath,ClrInstanceID)
+Event name: Loader/AssemblyDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40095.354508
+Event : Loader/AssemblyDCStop (6: AssemblyID,AppDomainID,AssemblyFlags,FullyQualifiedAssemblyName,BindingID,ClrInstanceID)
+Event name: Loader/ModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40095.356484
+Event : Loader/ModuleDCStop (12: ModuleID,AssemblyID,ModuleFlags,ModuleILPath,ModuleNativePath,ManagedPdbSignature,ManagedPdbAge,ManagedPdbBuildPath,NativePdbSignature,NativePdbAge,NativePdbBuildPath,ModuleILFileName)
+Event name: Loader/DomainModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40095.357133
+Event : Loader/DomainModuleDCStop (7: ModuleID,AssemblyID,AppDomainID,ModuleFlags,ModuleILPath,ModuleNativePath,ClrInstanceID)
+Event name: Loader/AssemblyDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40095.359711
+Event : Loader/AssemblyDCStop (6: AssemblyID,AppDomainID,AssemblyFlags,FullyQualifiedAssemblyName,BindingID,ClrInstanceID)
+Event name: Loader/ModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40095.381494
+Event : Loader/ModuleDCStop (12: ModuleID,AssemblyID,ModuleFlags,ModuleILPath,ModuleNativePath,ManagedPdbSignature,ManagedPdbAge,ManagedPdbBuildPath,NativePdbSignature,NativePdbAge,NativePdbBuildPath,ModuleILFileName)
+Event name: Loader/DomainModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40095.382331
+Event : Loader/DomainModuleDCStop (7: ModuleID,AssemblyID,AppDomainID,ModuleFlags,ModuleILPath,ModuleNativePath,ClrInstanceID)
+Event name: Loader/AssemblyDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40095.386734
+Event : Loader/AssemblyDCStop (6: AssemblyID,AppDomainID,AssemblyFlags,FullyQualifiedAssemblyName,BindingID,ClrInstanceID)
+Event name: Loader/ModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40095.416257
+Event : Loader/ModuleDCStop (12: ModuleID,AssemblyID,ModuleFlags,ModuleILPath,ModuleNativePath,ManagedPdbSignature,ManagedPdbAge,ManagedPdbBuildPath,NativePdbSignature,NativePdbAge,NativePdbBuildPath,ModuleILFileName)
+Event name: Loader/DomainModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40095.417115
+Event : Loader/DomainModuleDCStop (7: ModuleID,AssemblyID,AppDomainID,ModuleFlags,ModuleILPath,ModuleNativePath,ClrInstanceID)
+Event name: Loader/AssemblyDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40095.431185
+Event : Loader/AssemblyDCStop (6: AssemblyID,AppDomainID,AssemblyFlags,FullyQualifiedAssemblyName,BindingID,ClrInstanceID)
+Event name: Loader/ModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40096.328426
+Event : Loader/ModuleDCStop (12: ModuleID,AssemblyID,ModuleFlags,ModuleILPath,ModuleNativePath,ManagedPdbSignature,ManagedPdbAge,ManagedPdbBuildPath,NativePdbSignature,NativePdbAge,NativePdbBuildPath,ModuleILFileName)
+Event name: Loader/DomainModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40096.329358
+Event : Loader/DomainModuleDCStop (7: ModuleID,AssemblyID,AppDomainID,ModuleFlags,ModuleILPath,ModuleNativePath,ClrInstanceID)
+Event name: Loader/AssemblyDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40096.333755
+Event : Loader/AssemblyDCStop (6: AssemblyID,AppDomainID,AssemblyFlags,FullyQualifiedAssemblyName,BindingID,ClrInstanceID)
+Event name: Loader/ModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40096.46756
+Event : Loader/ModuleDCStop (12: ModuleID,AssemblyID,ModuleFlags,ModuleILPath,ModuleNativePath,ManagedPdbSignature,ManagedPdbAge,ManagedPdbBuildPath,NativePdbSignature,NativePdbAge,NativePdbBuildPath,ModuleILFileName)
+Event name: Loader/DomainModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40096.468353
+Event : Loader/DomainModuleDCStop (7: ModuleID,AssemblyID,AppDomainID,ModuleFlags,ModuleILPath,ModuleNativePath,ClrInstanceID)
+Event name: Loader/AssemblyDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40096.470955
+Event : Loader/AssemblyDCStop (6: AssemblyID,AppDomainID,AssemblyFlags,FullyQualifiedAssemblyName,BindingID,ClrInstanceID)
+Event name: Loader/ModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40096.474075
+Event : Loader/ModuleDCStop (12: ModuleID,AssemblyID,ModuleFlags,ModuleILPath,ModuleNativePath,ManagedPdbSignature,ManagedPdbAge,ManagedPdbBuildPath,NativePdbSignature,NativePdbAge,NativePdbBuildPath,ModuleILFileName)
+Event name: Loader/DomainModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40096.474625
+Event : Loader/DomainModuleDCStop (7: ModuleID,AssemblyID,AppDomainID,ModuleFlags,ModuleILPath,ModuleNativePath,ClrInstanceID)
+Event name: Loader/AssemblyDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40096.477459
+Event : Loader/AssemblyDCStop (6: AssemblyID,AppDomainID,AssemblyFlags,FullyQualifiedAssemblyName,BindingID,ClrInstanceID)
+Event name: Loader/ModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40096.53348
+Event : Loader/ModuleDCStop (12: ModuleID,AssemblyID,ModuleFlags,ModuleILPath,ModuleNativePath,ManagedPdbSignature,ManagedPdbAge,ManagedPdbBuildPath,NativePdbSignature,NativePdbAge,NativePdbBuildPath,ModuleILFileName)
+Event name: Loader/DomainModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40096.534168
+Event : Loader/DomainModuleDCStop (7: ModuleID,AssemblyID,AppDomainID,ModuleFlags,ModuleILPath,ModuleNativePath,ClrInstanceID)
+Event name: Loader/AssemblyDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40096.538245
+Event : Loader/AssemblyDCStop (6: AssemblyID,AppDomainID,AssemblyFlags,FullyQualifiedAssemblyName,BindingID,ClrInstanceID)
+Event name: Loader/ModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40096.85846
+Event : Loader/ModuleDCStop (12: ModuleID,AssemblyID,ModuleFlags,ModuleILPath,ModuleNativePath,ManagedPdbSignature,ManagedPdbAge,ManagedPdbBuildPath,NativePdbSignature,NativePdbAge,NativePdbBuildPath,ModuleILFileName)
+Event name: Loader/DomainModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40096.85925
+Event : Loader/DomainModuleDCStop (7: ModuleID,AssemblyID,AppDomainID,ModuleFlags,ModuleILPath,ModuleNativePath,ClrInstanceID)
+Event name: Loader/AssemblyDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40096.862598
+Event : Loader/AssemblyDCStop (6: AssemblyID,AppDomainID,AssemblyFlags,FullyQualifiedAssemblyName,BindingID,ClrInstanceID)
+Event name: Loader/ModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40096.880502
+Event : Loader/ModuleDCStop (12: ModuleID,AssemblyID,ModuleFlags,ModuleILPath,ModuleNativePath,ManagedPdbSignature,ManagedPdbAge,ManagedPdbBuildPath,NativePdbSignature,NativePdbAge,NativePdbBuildPath,ModuleILFileName)
+Event name: Loader/DomainModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40096.881101
+Event : Loader/DomainModuleDCStop (7: ModuleID,AssemblyID,AppDomainID,ModuleFlags,ModuleILPath,ModuleNativePath,ClrInstanceID)
+Event name: Loader/AssemblyDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40096.883474
+Event : Loader/AssemblyDCStop (6: AssemblyID,AppDomainID,AssemblyFlags,FullyQualifiedAssemblyName,BindingID,ClrInstanceID)
+Event name: Loader/ModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40096.903805
+Event : Loader/ModuleDCStop (12: ModuleID,AssemblyID,ModuleFlags,ModuleILPath,ModuleNativePath,ManagedPdbSignature,ManagedPdbAge,ManagedPdbBuildPath,NativePdbSignature,NativePdbAge,NativePdbBuildPath,ModuleILFileName)
+Event name: Loader/DomainModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40096.906442
+Event : Loader/DomainModuleDCStop (7: ModuleID,AssemblyID,AppDomainID,ModuleFlags,ModuleILPath,ModuleNativePath,ClrInstanceID)
+Event name: Loader/AssemblyDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40096.909193
+Event : Loader/AssemblyDCStop (6: AssemblyID,AppDomainID,AssemblyFlags,FullyQualifiedAssemblyName,BindingID,ClrInstanceID)
+Event name: Loader/ModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40096.911351
+Event : Loader/ModuleDCStop (12: ModuleID,AssemblyID,ModuleFlags,ModuleILPath,ModuleNativePath,ManagedPdbSignature,ManagedPdbAge,ManagedPdbBuildPath,NativePdbSignature,NativePdbAge,NativePdbBuildPath,ModuleILFileName)
+Event name: Loader/DomainModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40096.91232
+Event : Loader/DomainModuleDCStop (7: ModuleID,AssemblyID,AppDomainID,ModuleFlags,ModuleILPath,ModuleNativePath,ClrInstanceID)
+Event name: Loader/AssemblyDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40096.914711
+Event : Loader/AssemblyDCStop (6: AssemblyID,AppDomainID,AssemblyFlags,FullyQualifiedAssemblyName,BindingID,ClrInstanceID)
+Event name: Loader/ModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40096.991749
+Event : Loader/ModuleDCStop (12: ModuleID,AssemblyID,ModuleFlags,ModuleILPath,ModuleNativePath,ManagedPdbSignature,ManagedPdbAge,ManagedPdbBuildPath,NativePdbSignature,NativePdbAge,NativePdbBuildPath,ModuleILFileName)
+Event name: Loader/DomainModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40096.992345
+Event : Loader/DomainModuleDCStop (7: ModuleID,AssemblyID,AppDomainID,ModuleFlags,ModuleILPath,ModuleNativePath,ClrInstanceID)
+Event name: Loader/AssemblyDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40096.995208
+Event : Loader/AssemblyDCStop (6: AssemblyID,AppDomainID,AssemblyFlags,FullyQualifiedAssemblyName,BindingID,ClrInstanceID)
+Event name: Loader/ModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40097.109184
+Event : Loader/ModuleDCStop (12: ModuleID,AssemblyID,ModuleFlags,ModuleILPath,ModuleNativePath,ManagedPdbSignature,ManagedPdbAge,ManagedPdbBuildPath,NativePdbSignature,NativePdbAge,NativePdbBuildPath,ModuleILFileName)
+Event name: Loader/DomainModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40097.109884
+Event : Loader/DomainModuleDCStop (7: ModuleID,AssemblyID,AppDomainID,ModuleFlags,ModuleILPath,ModuleNativePath,ClrInstanceID)
+Event name: Loader/AssemblyDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40097.112971
+Event : Loader/AssemblyDCStop (6: AssemblyID,AppDomainID,AssemblyFlags,FullyQualifiedAssemblyName,BindingID,ClrInstanceID)
+Event name: Loader/ModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40097.148059
+Event : Loader/ModuleDCStop (12: ModuleID,AssemblyID,ModuleFlags,ModuleILPath,ModuleNativePath,ManagedPdbSignature,ManagedPdbAge,ManagedPdbBuildPath,NativePdbSignature,NativePdbAge,NativePdbBuildPath,ModuleILFileName)
+Event name: Loader/DomainModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40097.148682
+Event : Loader/DomainModuleDCStop (7: ModuleID,AssemblyID,AppDomainID,ModuleFlags,ModuleILPath,ModuleNativePath,ClrInstanceID)
+Event name: Loader/AssemblyDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40097.152153
+Event : Loader/AssemblyDCStop (6: AssemblyID,AppDomainID,AssemblyFlags,FullyQualifiedAssemblyName,BindingID,ClrInstanceID)
+Event name: Loader/ModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40097.170616
+Event : Loader/ModuleDCStop (12: ModuleID,AssemblyID,ModuleFlags,ModuleILPath,ModuleNativePath,ManagedPdbSignature,ManagedPdbAge,ManagedPdbBuildPath,NativePdbSignature,NativePdbAge,NativePdbBuildPath,ModuleILFileName)
+Event name: Loader/DomainModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40097.171232
+Event : Loader/DomainModuleDCStop (7: ModuleID,AssemblyID,AppDomainID,ModuleFlags,ModuleILPath,ModuleNativePath,ClrInstanceID)
+Event name: Loader/AssemblyDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40097.174957
+Event : Loader/AssemblyDCStop (6: AssemblyID,AppDomainID,AssemblyFlags,FullyQualifiedAssemblyName,BindingID,ClrInstanceID)
+Event name: Loader/ModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40097.19503
+Event : Loader/ModuleDCStop (12: ModuleID,AssemblyID,ModuleFlags,ModuleILPath,ModuleNativePath,ManagedPdbSignature,ManagedPdbAge,ManagedPdbBuildPath,NativePdbSignature,NativePdbAge,NativePdbBuildPath,ModuleILFileName)
+Event name: Loader/DomainModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40097.195648
+Event : Loader/DomainModuleDCStop (7: ModuleID,AssemblyID,AppDomainID,ModuleFlags,ModuleILPath,ModuleNativePath,ClrInstanceID)
+Event name: Loader/AssemblyDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40097.198916
+Event : Loader/AssemblyDCStop (6: AssemblyID,AppDomainID,AssemblyFlags,FullyQualifiedAssemblyName,BindingID,ClrInstanceID)
+Event name: Loader/ModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40097.422856
+Event : Loader/ModuleDCStop (12: ModuleID,AssemblyID,ModuleFlags,ModuleILPath,ModuleNativePath,ManagedPdbSignature,ManagedPdbAge,ManagedPdbBuildPath,NativePdbSignature,NativePdbAge,NativePdbBuildPath,ModuleILFileName)
+Event name: Loader/DomainModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40097.423671
+Event : Loader/DomainModuleDCStop (7: ModuleID,AssemblyID,AppDomainID,ModuleFlags,ModuleILPath,ModuleNativePath,ClrInstanceID)
+Event name: Loader/AssemblyDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40097.427567
+Event : Loader/AssemblyDCStop (6: AssemblyID,AppDomainID,AssemblyFlags,FullyQualifiedAssemblyName,BindingID,ClrInstanceID)
+Event name: Loader/ModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40097.459025
+Event : Loader/ModuleDCStop (12: ModuleID,AssemblyID,ModuleFlags,ModuleILPath,ModuleNativePath,ManagedPdbSignature,ManagedPdbAge,ManagedPdbBuildPath,NativePdbSignature,NativePdbAge,NativePdbBuildPath,ModuleILFileName)
+Event name: Loader/DomainModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40097.45975
+Event : Loader/DomainModuleDCStop (7: ModuleID,AssemblyID,AppDomainID,ModuleFlags,ModuleILPath,ModuleNativePath,ClrInstanceID)
+Event name: Loader/AssemblyDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40097.463208
+Event : Loader/AssemblyDCStop (6: AssemblyID,AppDomainID,AssemblyFlags,FullyQualifiedAssemblyName,BindingID,ClrInstanceID)
+Event name: Loader/ModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40097.662823
+Event : Loader/ModuleDCStop (12: ModuleID,AssemblyID,ModuleFlags,ModuleILPath,ModuleNativePath,ManagedPdbSignature,ManagedPdbAge,ManagedPdbBuildPath,NativePdbSignature,NativePdbAge,NativePdbBuildPath,ModuleILFileName)
+Event name: Loader/DomainModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40097.665452
+Event : Loader/DomainModuleDCStop (7: ModuleID,AssemblyID,AppDomainID,ModuleFlags,ModuleILPath,ModuleNativePath,ClrInstanceID)
+Event name: Loader/AssemblyDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40097.669351
+Event : Loader/AssemblyDCStop (6: AssemblyID,AppDomainID,AssemblyFlags,FullyQualifiedAssemblyName,BindingID,ClrInstanceID)
+Event name: Loader/ModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40097.747345
+Event : Loader/ModuleDCStop (12: ModuleID,AssemblyID,ModuleFlags,ModuleILPath,ModuleNativePath,ManagedPdbSignature,ManagedPdbAge,ManagedPdbBuildPath,NativePdbSignature,NativePdbAge,NativePdbBuildPath,ModuleILFileName)
+Event name: Loader/DomainModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40097.74804
+Event : Loader/DomainModuleDCStop (7: ModuleID,AssemblyID,AppDomainID,ModuleFlags,ModuleILPath,ModuleNativePath,ClrInstanceID)
+Event name: Loader/AssemblyDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40097.75251
+Event : Loader/AssemblyDCStop (6: AssemblyID,AppDomainID,AssemblyFlags,FullyQualifiedAssemblyName,BindingID,ClrInstanceID)
+Event name: Loader/ModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40097.795393
+Event : Loader/ModuleDCStop (12: ModuleID,AssemblyID,ModuleFlags,ModuleILPath,ModuleNativePath,ManagedPdbSignature,ManagedPdbAge,ManagedPdbBuildPath,NativePdbSignature,NativePdbAge,NativePdbBuildPath,ModuleILFileName)
+Event name: Loader/DomainModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40097.79797
+Event : Loader/DomainModuleDCStop (7: ModuleID,AssemblyID,AppDomainID,ModuleFlags,ModuleILPath,ModuleNativePath,ClrInstanceID)
+Event name: Loader/AssemblyDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40097.801742
+Event : Loader/AssemblyDCStop (6: AssemblyID,AppDomainID,AssemblyFlags,FullyQualifiedAssemblyName,BindingID,ClrInstanceID)
+Event name: Loader/ModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40097.810962
+Event : Loader/ModuleDCStop (12: ModuleID,AssemblyID,ModuleFlags,ModuleILPath,ModuleNativePath,ManagedPdbSignature,ManagedPdbAge,ManagedPdbBuildPath,NativePdbSignature,NativePdbAge,NativePdbBuildPath,ModuleILFileName)
+Event name: Loader/DomainModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40097.811713
+Event : Loader/DomainModuleDCStop (7: ModuleID,AssemblyID,AppDomainID,ModuleFlags,ModuleILPath,ModuleNativePath,ClrInstanceID)
+Event name: Loader/AssemblyDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40097.815384
+Event : Loader/AssemblyDCStop (6: AssemblyID,AppDomainID,AssemblyFlags,FullyQualifiedAssemblyName,BindingID,ClrInstanceID)
+Event name: Loader/ModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40097.870544
+Event : Loader/ModuleDCStop (12: ModuleID,AssemblyID,ModuleFlags,ModuleILPath,ModuleNativePath,ManagedPdbSignature,ManagedPdbAge,ManagedPdbBuildPath,NativePdbSignature,NativePdbAge,NativePdbBuildPath,ModuleILFileName)
+Event name: Loader/DomainModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40097.871165
+Event : Loader/DomainModuleDCStop (7: ModuleID,AssemblyID,AppDomainID,ModuleFlags,ModuleILPath,ModuleNativePath,ClrInstanceID)
+Event name: Loader/AssemblyDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40097.874572
+Event : Loader/AssemblyDCStop (6: AssemblyID,AppDomainID,AssemblyFlags,FullyQualifiedAssemblyName,BindingID,ClrInstanceID)
+Event name: Loader/ModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40097.938097
+Event : Loader/ModuleDCStop (12: ModuleID,AssemblyID,ModuleFlags,ModuleILPath,ModuleNativePath,ManagedPdbSignature,ManagedPdbAge,ManagedPdbBuildPath,NativePdbSignature,NativePdbAge,NativePdbBuildPath,ModuleILFileName)
+Event name: Loader/DomainModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40097.940782
+Event : Loader/DomainModuleDCStop (7: ModuleID,AssemblyID,AppDomainID,ModuleFlags,ModuleILPath,ModuleNativePath,ClrInstanceID)
+Event name: Loader/AssemblyDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40097.943903
+Event : Loader/AssemblyDCStop (6: AssemblyID,AppDomainID,AssemblyFlags,FullyQualifiedAssemblyName,BindingID,ClrInstanceID)
+Event name: Loader/ModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40098.235163
+Event : Loader/ModuleDCStop (12: ModuleID,AssemblyID,ModuleFlags,ModuleILPath,ModuleNativePath,ManagedPdbSignature,ManagedPdbAge,ManagedPdbBuildPath,NativePdbSignature,NativePdbAge,NativePdbBuildPath,ModuleILFileName)
+Event name: Loader/DomainModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40098.235829
+Event : Loader/DomainModuleDCStop (7: ModuleID,AssemblyID,AppDomainID,ModuleFlags,ModuleILPath,ModuleNativePath,ClrInstanceID)
+Event name: Loader/AssemblyDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40098.238039
+Event : Loader/AssemblyDCStop (6: AssemblyID,AppDomainID,AssemblyFlags,FullyQualifiedAssemblyName,BindingID,ClrInstanceID)
+Event name: Loader/ModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40098.689579
+Event : Loader/ModuleDCStop (12: ModuleID,AssemblyID,ModuleFlags,ModuleILPath,ModuleNativePath,ManagedPdbSignature,ManagedPdbAge,ManagedPdbBuildPath,NativePdbSignature,NativePdbAge,NativePdbBuildPath,ModuleILFileName)
+Event name: Loader/DomainModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40098.690677
+Event : Loader/DomainModuleDCStop (7: ModuleID,AssemblyID,AppDomainID,ModuleFlags,ModuleILPath,ModuleNativePath,ClrInstanceID)
+Event name: Loader/AssemblyDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40098.694012
+Event : Loader/AssemblyDCStop (6: AssemblyID,AppDomainID,AssemblyFlags,FullyQualifiedAssemblyName,BindingID,ClrInstanceID)
+Event name: Loader/ModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40098.695668
+Event : Loader/ModuleDCStop (12: ModuleID,AssemblyID,ModuleFlags,ModuleILPath,ModuleNativePath,ManagedPdbSignature,ManagedPdbAge,ManagedPdbBuildPath,NativePdbSignature,NativePdbAge,NativePdbBuildPath,ModuleILFileName)
+Event name: Loader/DomainModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40098.69667
+Event : Loader/DomainModuleDCStop (7: ModuleID,AssemblyID,AppDomainID,ModuleFlags,ModuleILPath,ModuleNativePath,ClrInstanceID)
+Event name: Loader/AssemblyDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40098.701266
+Event : Loader/AssemblyDCStop (6: AssemblyID,AppDomainID,AssemblyFlags,FullyQualifiedAssemblyName,BindingID,ClrInstanceID)
+Event name: Loader/ModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40098.972666
+Event : Loader/ModuleDCStop (12: ModuleID,AssemblyID,ModuleFlags,ModuleILPath,ModuleNativePath,ManagedPdbSignature,ManagedPdbAge,ManagedPdbBuildPath,NativePdbSignature,NativePdbAge,NativePdbBuildPath,ModuleILFileName)
+Event name: Loader/DomainModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40098.975346
+Event : Loader/DomainModuleDCStop (7: ModuleID,AssemblyID,AppDomainID,ModuleFlags,ModuleILPath,ModuleNativePath,ClrInstanceID)
+Event name: Loader/AssemblyDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40098.978123
+Event : Loader/AssemblyDCStop (6: AssemblyID,AppDomainID,AssemblyFlags,FullyQualifiedAssemblyName,BindingID,ClrInstanceID)
+Event name: Loader/ModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40099.000822
+Event : Loader/ModuleDCStop (12: ModuleID,AssemblyID,ModuleFlags,ModuleILPath,ModuleNativePath,ManagedPdbSignature,ManagedPdbAge,ManagedPdbBuildPath,NativePdbSignature,NativePdbAge,NativePdbBuildPath,ModuleILFileName)
+Event name: Loader/DomainModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40099.001449
+Event : Loader/DomainModuleDCStop (7: ModuleID,AssemblyID,AppDomainID,ModuleFlags,ModuleILPath,ModuleNativePath,ClrInstanceID)
+Event name: Loader/AssemblyDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40099.003727
+Event : Loader/AssemblyDCStop (6: AssemblyID,AppDomainID,AssemblyFlags,FullyQualifiedAssemblyName,BindingID,ClrInstanceID)
+Event name: Loader/ModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40099.039978
+Event : Loader/ModuleDCStop (12: ModuleID,AssemblyID,ModuleFlags,ModuleILPath,ModuleNativePath,ManagedPdbSignature,ManagedPdbAge,ManagedPdbBuildPath,NativePdbSignature,NativePdbAge,NativePdbBuildPath,ModuleILFileName)
+Event name: Loader/DomainModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40099.040582
+Event : Loader/DomainModuleDCStop (7: ModuleID,AssemblyID,AppDomainID,ModuleFlags,ModuleILPath,ModuleNativePath,ClrInstanceID)
+Event name: Loader/AssemblyDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40099.045563
+Event : Loader/AssemblyDCStop (6: AssemblyID,AppDomainID,AssemblyFlags,FullyQualifiedAssemblyName,BindingID,ClrInstanceID)
+Event name: Loader/ModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40099.059414
+Event : Loader/ModuleDCStop (12: ModuleID,AssemblyID,ModuleFlags,ModuleILPath,ModuleNativePath,ManagedPdbSignature,ManagedPdbAge,ManagedPdbBuildPath,NativePdbSignature,NativePdbAge,NativePdbBuildPath,ModuleILFileName)
+Event name: Loader/DomainModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40099.060121
+Event : Loader/DomainModuleDCStop (7: ModuleID,AssemblyID,AppDomainID,ModuleFlags,ModuleILPath,ModuleNativePath,ClrInstanceID)
+Event name: Loader/AssemblyDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40099.063671
+Event : Loader/AssemblyDCStop (6: AssemblyID,AppDomainID,AssemblyFlags,FullyQualifiedAssemblyName,BindingID,ClrInstanceID)
+Event name: Loader/ModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40099.114619
+Event : Loader/ModuleDCStop (12: ModuleID,AssemblyID,ModuleFlags,ModuleILPath,ModuleNativePath,ManagedPdbSignature,ManagedPdbAge,ManagedPdbBuildPath,NativePdbSignature,NativePdbAge,NativePdbBuildPath,ModuleILFileName)
+Event name: Loader/DomainModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40099.117204
+Event : Loader/DomainModuleDCStop (7: ModuleID,AssemblyID,AppDomainID,ModuleFlags,ModuleILPath,ModuleNativePath,ClrInstanceID)
+Event name: Loader/AssemblyDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40099.120946
+Event : Loader/AssemblyDCStop (6: AssemblyID,AppDomainID,AssemblyFlags,FullyQualifiedAssemblyName,BindingID,ClrInstanceID)
+Event name: Loader/ModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40099.168254
+Event : Loader/ModuleDCStop (12: ModuleID,AssemblyID,ModuleFlags,ModuleILPath,ModuleNativePath,ManagedPdbSignature,ManagedPdbAge,ManagedPdbBuildPath,NativePdbSignature,NativePdbAge,NativePdbBuildPath,ModuleILFileName)
+Event name: Loader/DomainModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40099.168894
+Event : Loader/DomainModuleDCStop (7: ModuleID,AssemblyID,AppDomainID,ModuleFlags,ModuleILPath,ModuleNativePath,ClrInstanceID)
+Event name: Loader/AssemblyDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40099.171379
+Event : Loader/AssemblyDCStop (6: AssemblyID,AppDomainID,AssemblyFlags,FullyQualifiedAssemblyName,BindingID,ClrInstanceID)
+Event name: Loader/ModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40099.636528
+Event : Loader/ModuleDCStop (12: ModuleID,AssemblyID,ModuleFlags,ModuleILPath,ModuleNativePath,ManagedPdbSignature,ManagedPdbAge,ManagedPdbBuildPath,NativePdbSignature,NativePdbAge,NativePdbBuildPath,ModuleILFileName)
+Event name: Loader/DomainModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40099.63739
+Event : Loader/DomainModuleDCStop (7: ModuleID,AssemblyID,AppDomainID,ModuleFlags,ModuleILPath,ModuleNativePath,ClrInstanceID)
+Event name: Loader/AssemblyDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40099.640082
+Event : Loader/AssemblyDCStop (6: AssemblyID,AppDomainID,AssemblyFlags,FullyQualifiedAssemblyName,BindingID,ClrInstanceID)
+Event name: Loader/ModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40099.783026
+Event : Loader/ModuleDCStop (12: ModuleID,AssemblyID,ModuleFlags,ModuleILPath,ModuleNativePath,ManagedPdbSignature,ManagedPdbAge,ManagedPdbBuildPath,NativePdbSignature,NativePdbAge,NativePdbBuildPath,ModuleILFileName)
+Event name: Loader/DomainModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40099.785652
+Event : Loader/DomainModuleDCStop (7: ModuleID,AssemblyID,AppDomainID,ModuleFlags,ModuleILPath,ModuleNativePath,ClrInstanceID)
+Event name: Loader/AssemblyDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40099.788561
+Event : Loader/AssemblyDCStop (6: AssemblyID,AppDomainID,AssemblyFlags,FullyQualifiedAssemblyName,BindingID,ClrInstanceID)
+Event name: Loader/ModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40099.790425
+Event : Loader/ModuleDCStop (12: ModuleID,AssemblyID,ModuleFlags,ModuleILPath,ModuleNativePath,ManagedPdbSignature,ManagedPdbAge,ManagedPdbBuildPath,NativePdbSignature,NativePdbAge,NativePdbBuildPath,ModuleILFileName)
+Event name: Loader/DomainModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40099.791186
+Event : Loader/DomainModuleDCStop (7: ModuleID,AssemblyID,AppDomainID,ModuleFlags,ModuleILPath,ModuleNativePath,ClrInstanceID)
+Event name: Loader/AssemblyDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40099.793827
+Event : Loader/AssemblyDCStop (6: AssemblyID,AppDomainID,AssemblyFlags,FullyQualifiedAssemblyName,BindingID,ClrInstanceID)
+Event name: Loader/ModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40099.861694
+Event : Loader/ModuleDCStop (12: ModuleID,AssemblyID,ModuleFlags,ModuleILPath,ModuleNativePath,ManagedPdbSignature,ManagedPdbAge,ManagedPdbBuildPath,NativePdbSignature,NativePdbAge,NativePdbBuildPath,ModuleILFileName)
+Event name: Loader/DomainModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40099.862397
+Event : Loader/DomainModuleDCStop (7: ModuleID,AssemblyID,AppDomainID,ModuleFlags,ModuleILPath,ModuleNativePath,ClrInstanceID)
+Event name: Loader/AssemblyDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40099.866342
+Event : Loader/AssemblyDCStop (6: AssemblyID,AppDomainID,AssemblyFlags,FullyQualifiedAssemblyName,BindingID,ClrInstanceID)
+Event name: Loader/ModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40099.885613
+Event : Loader/ModuleDCStop (12: ModuleID,AssemblyID,ModuleFlags,ModuleILPath,ModuleNativePath,ManagedPdbSignature,ManagedPdbAge,ManagedPdbBuildPath,NativePdbSignature,NativePdbAge,NativePdbBuildPath,ModuleILFileName)
+Event name: Loader/DomainModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40099.888359
+Event : Loader/DomainModuleDCStop (7: ModuleID,AssemblyID,AppDomainID,ModuleFlags,ModuleILPath,ModuleNativePath,ClrInstanceID)
+Event name: Loader/AssemblyDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40099.891847
+Event : Loader/AssemblyDCStop (6: AssemblyID,AppDomainID,AssemblyFlags,FullyQualifiedAssemblyName,BindingID,ClrInstanceID)
+Event name: Loader/ModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40100.000897
+Event : Loader/ModuleDCStop (12: ModuleID,AssemblyID,ModuleFlags,ModuleILPath,ModuleNativePath,ManagedPdbSignature,ManagedPdbAge,ManagedPdbBuildPath,NativePdbSignature,NativePdbAge,NativePdbBuildPath,ModuleILFileName)
+Event name: Loader/DomainModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40100.001658
+Event : Loader/DomainModuleDCStop (7: ModuleID,AssemblyID,AppDomainID,ModuleFlags,ModuleILPath,ModuleNativePath,ClrInstanceID)
+Event name: Loader/AssemblyDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40100.005547
+Event : Loader/AssemblyDCStop (6: AssemblyID,AppDomainID,AssemblyFlags,FullyQualifiedAssemblyName,BindingID,ClrInstanceID)
+Event name: Loader/ModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40100.133047
+Event : Loader/ModuleDCStop (12: ModuleID,AssemblyID,ModuleFlags,ModuleILPath,ModuleNativePath,ManagedPdbSignature,ManagedPdbAge,ManagedPdbBuildPath,NativePdbSignature,NativePdbAge,NativePdbBuildPath,ModuleILFileName)
+Event name: Loader/DomainModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40100.133823
+Event : Loader/DomainModuleDCStop (7: ModuleID,AssemblyID,AppDomainID,ModuleFlags,ModuleILPath,ModuleNativePath,ClrInstanceID)
+Event name: Loader/AssemblyDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40100.137079
+Event : Loader/AssemblyDCStop (6: AssemblyID,AppDomainID,AssemblyFlags,FullyQualifiedAssemblyName,BindingID,ClrInstanceID)
+Event name: Loader/ModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40100.417785
+Event : Loader/ModuleDCStop (12: ModuleID,AssemblyID,ModuleFlags,ModuleILPath,ModuleNativePath,ManagedPdbSignature,ManagedPdbAge,ManagedPdbBuildPath,NativePdbSignature,NativePdbAge,NativePdbBuildPath,ModuleILFileName)
+Event name: Loader/DomainModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40100.42052
+Event : Loader/DomainModuleDCStop (7: ModuleID,AssemblyID,AppDomainID,ModuleFlags,ModuleILPath,ModuleNativePath,ClrInstanceID)
+Event name: Loader/AssemblyDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40100.424282
+Event : Loader/AssemblyDCStop (6: AssemblyID,AppDomainID,AssemblyFlags,FullyQualifiedAssemblyName,BindingID,ClrInstanceID)
+Event name: Loader/ModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40100.72028
+Event : Loader/ModuleDCStop (12: ModuleID,AssemblyID,ModuleFlags,ModuleILPath,ModuleNativePath,ManagedPdbSignature,ManagedPdbAge,ManagedPdbBuildPath,NativePdbSignature,NativePdbAge,NativePdbBuildPath,ModuleILFileName)
+Event name: Loader/DomainModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40100.723855
+Event : Loader/DomainModuleDCStop (7: ModuleID,AssemblyID,AppDomainID,ModuleFlags,ModuleILPath,ModuleNativePath,ClrInstanceID)
+Event name: Loader/AssemblyDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40100.727307
+Event : Loader/AssemblyDCStop (6: AssemblyID,AppDomainID,AssemblyFlags,FullyQualifiedAssemblyName,BindingID,ClrInstanceID)
+Event name: Loader/ModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40100.733955
+Event : Loader/ModuleDCStop (12: ModuleID,AssemblyID,ModuleFlags,ModuleILPath,ModuleNativePath,ManagedPdbSignature,ManagedPdbAge,ManagedPdbBuildPath,NativePdbSignature,NativePdbAge,NativePdbBuildPath,ModuleILFileName)
+Event name: Loader/DomainModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40100.735103
+Event : Loader/DomainModuleDCStop (7: ModuleID,AssemblyID,AppDomainID,ModuleFlags,ModuleILPath,ModuleNativePath,ClrInstanceID)
+Event name: Loader/AssemblyDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40100.738858
+Event : Loader/AssemblyDCStop (6: AssemblyID,AppDomainID,AssemblyFlags,FullyQualifiedAssemblyName,BindingID,ClrInstanceID)
+Event name: Loader/ModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40101.149416
+Event : Loader/ModuleDCStop (12: ModuleID,AssemblyID,ModuleFlags,ModuleILPath,ModuleNativePath,ManagedPdbSignature,ManagedPdbAge,ManagedPdbBuildPath,NativePdbSignature,NativePdbAge,NativePdbBuildPath,ModuleILFileName)
+Event name: Loader/DomainModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40101.150154
+Event : Loader/DomainModuleDCStop (7: ModuleID,AssemblyID,AppDomainID,ModuleFlags,ModuleILPath,ModuleNativePath,ClrInstanceID)
+Event name: Loader/AssemblyDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40101.153911
+Event : Loader/AssemblyDCStop (6: AssemblyID,AppDomainID,AssemblyFlags,FullyQualifiedAssemblyName,BindingID,ClrInstanceID)
+Event name: Loader/ModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40101.170704
+Event : Loader/ModuleDCStop (12: ModuleID,AssemblyID,ModuleFlags,ModuleILPath,ModuleNativePath,ManagedPdbSignature,ManagedPdbAge,ManagedPdbBuildPath,NativePdbSignature,NativePdbAge,NativePdbBuildPath,ModuleILFileName)
+Event name: Loader/DomainModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40101.171319
+Event : Loader/DomainModuleDCStop (7: ModuleID,AssemblyID,AppDomainID,ModuleFlags,ModuleILPath,ModuleNativePath,ClrInstanceID)
+Event name: Loader/AssemblyDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40101.174585
+Event : Loader/AssemblyDCStop (6: AssemblyID,AppDomainID,AssemblyFlags,FullyQualifiedAssemblyName,BindingID,ClrInstanceID)
+Event name: Loader/ModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40101.330132
+Event : Loader/ModuleDCStop (12: ModuleID,AssemblyID,ModuleFlags,ModuleILPath,ModuleNativePath,ManagedPdbSignature,ManagedPdbAge,ManagedPdbBuildPath,NativePdbSignature,NativePdbAge,NativePdbBuildPath,ModuleILFileName)
+Event name: Loader/DomainModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40101.330902
+Event : Loader/DomainModuleDCStop (7: ModuleID,AssemblyID,AppDomainID,ModuleFlags,ModuleILPath,ModuleNativePath,ClrInstanceID)
+Event name: Loader/AssemblyDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40101.336148
+Event : Loader/AssemblyDCStop (6: AssemblyID,AppDomainID,AssemblyFlags,FullyQualifiedAssemblyName,BindingID,ClrInstanceID)
+Event name: Loader/ModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40101.393975
+Event : Loader/ModuleDCStop (12: ModuleID,AssemblyID,ModuleFlags,ModuleILPath,ModuleNativePath,ManagedPdbSignature,ManagedPdbAge,ManagedPdbBuildPath,NativePdbSignature,NativePdbAge,NativePdbBuildPath,ModuleILFileName)
+Event name: Loader/DomainModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40101.394579
+Event : Loader/DomainModuleDCStop (7: ModuleID,AssemblyID,AppDomainID,ModuleFlags,ModuleILPath,ModuleNativePath,ClrInstanceID)
+Event name: Loader/AssemblyDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40101.397828
+Event : Loader/AssemblyDCStop (6: AssemblyID,AppDomainID,AssemblyFlags,FullyQualifiedAssemblyName,BindingID,ClrInstanceID)
+Event name: Loader/ModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40101.417142
+Event : Loader/ModuleDCStop (12: ModuleID,AssemblyID,ModuleFlags,ModuleILPath,ModuleNativePath,ManagedPdbSignature,ManagedPdbAge,ManagedPdbBuildPath,NativePdbSignature,NativePdbAge,NativePdbBuildPath,ModuleILFileName)
+Event name: Loader/DomainModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40101.417733
+Event : Loader/DomainModuleDCStop (7: ModuleID,AssemblyID,AppDomainID,ModuleFlags,ModuleILPath,ModuleNativePath,ClrInstanceID)
+Event name: Loader/AssemblyDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40101.421335
+Event : Loader/AssemblyDCStop (6: AssemblyID,AppDomainID,AssemblyFlags,FullyQualifiedAssemblyName,BindingID,ClrInstanceID)
+Event name: Loader/ModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40101.443884
+Event : Loader/ModuleDCStop (12: ModuleID,AssemblyID,ModuleFlags,ModuleILPath,ModuleNativePath,ManagedPdbSignature,ManagedPdbAge,ManagedPdbBuildPath,NativePdbSignature,NativePdbAge,NativePdbBuildPath,ModuleILFileName)
+Event name: Loader/DomainModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40101.446571
+Event : Loader/DomainModuleDCStop (7: ModuleID,AssemblyID,AppDomainID,ModuleFlags,ModuleILPath,ModuleNativePath,ClrInstanceID)
+Event name: Loader/AssemblyDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40101.450238
+Event : Loader/AssemblyDCStop (6: AssemblyID,AppDomainID,AssemblyFlags,FullyQualifiedAssemblyName,BindingID,ClrInstanceID)
+Event name: Loader/ModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40101.453496
+Event : Loader/ModuleDCStop (12: ModuleID,AssemblyID,ModuleFlags,ModuleILPath,ModuleNativePath,ManagedPdbSignature,ManagedPdbAge,ManagedPdbBuildPath,NativePdbSignature,NativePdbAge,NativePdbBuildPath,ModuleILFileName)
+Event name: Loader/DomainModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40101.454169
+Event : Loader/DomainModuleDCStop (7: ModuleID,AssemblyID,AppDomainID,ModuleFlags,ModuleILPath,ModuleNativePath,ClrInstanceID)
+Event name: Loader/AssemblyDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40101.457811
+Event : Loader/AssemblyDCStop (6: AssemblyID,AppDomainID,AssemblyFlags,FullyQualifiedAssemblyName,BindingID,ClrInstanceID)
+Event name: Loader/ModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40101.616093
+Event : Loader/ModuleDCStop (12: ModuleID,AssemblyID,ModuleFlags,ModuleILPath,ModuleNativePath,ManagedPdbSignature,ManagedPdbAge,ManagedPdbBuildPath,NativePdbSignature,NativePdbAge,NativePdbBuildPath,ModuleILFileName)
+Event name: Loader/DomainModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40101.618584
+Event : Loader/DomainModuleDCStop (7: ModuleID,AssemblyID,AppDomainID,ModuleFlags,ModuleILPath,ModuleNativePath,ClrInstanceID)
+Event name: Loader/AssemblyDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40101.621089
+Event : Loader/AssemblyDCStop (6: AssemblyID,AppDomainID,AssemblyFlags,FullyQualifiedAssemblyName,BindingID,ClrInstanceID)
+Event name: Loader/ModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40101.623363
+Event : Loader/ModuleDCStop (12: ModuleID,AssemblyID,ModuleFlags,ModuleILPath,ModuleNativePath,ManagedPdbSignature,ManagedPdbAge,ManagedPdbBuildPath,NativePdbSignature,NativePdbAge,NativePdbBuildPath,ModuleILFileName)
+Event name: Loader/DomainModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40101.624072
+Event : Loader/DomainModuleDCStop (7: ModuleID,AssemblyID,AppDomainID,ModuleFlags,ModuleILPath,ModuleNativePath,ClrInstanceID)
+Event name: Loader/AssemblyDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40101.626541
+Event : Loader/AssemblyDCStop (6: AssemblyID,AppDomainID,AssemblyFlags,FullyQualifiedAssemblyName,BindingID,ClrInstanceID)
+Event name: Loader/ModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40103.267478
+Event : Loader/ModuleDCStop (12: ModuleID,AssemblyID,ModuleFlags,ModuleILPath,ModuleNativePath,ManagedPdbSignature,ManagedPdbAge,ManagedPdbBuildPath,NativePdbSignature,NativePdbAge,NativePdbBuildPath,ModuleILFileName)
+Event name: Loader/DomainModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40103.268223
+Event : Loader/DomainModuleDCStop (7: ModuleID,AssemblyID,AppDomainID,ModuleFlags,ModuleILPath,ModuleNativePath,ClrInstanceID)
+Event name: Loader/AssemblyDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40103.270797
+Event : Loader/AssemblyDCStop (6: AssemblyID,AppDomainID,AssemblyFlags,FullyQualifiedAssemblyName,BindingID,ClrInstanceID)
+Event name: Loader/ModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40103.272963
+Event : Loader/ModuleDCStop (12: ModuleID,AssemblyID,ModuleFlags,ModuleILPath,ModuleNativePath,ManagedPdbSignature,ManagedPdbAge,ManagedPdbBuildPath,NativePdbSignature,NativePdbAge,NativePdbBuildPath,ModuleILFileName)
+Event name: Loader/DomainModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40103.275579
+Event : Loader/DomainModuleDCStop (7: ModuleID,AssemblyID,AppDomainID,ModuleFlags,ModuleILPath,ModuleNativePath,ClrInstanceID)
+Event name: Loader/AssemblyDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40103.278292
+Event : Loader/AssemblyDCStop (6: AssemblyID,AppDomainID,AssemblyFlags,FullyQualifiedAssemblyName,BindingID,ClrInstanceID)
+Event name: Loader/ModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40103.279992
+Event : Loader/ModuleDCStop (12: ModuleID,AssemblyID,ModuleFlags,ModuleILPath,ModuleNativePath,ManagedPdbSignature,ManagedPdbAge,ManagedPdbBuildPath,NativePdbSignature,NativePdbAge,NativePdbBuildPath,ModuleILFileName)
+Event name: Loader/DomainModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40103.280663
+Event : Loader/DomainModuleDCStop (7: ModuleID,AssemblyID,AppDomainID,ModuleFlags,ModuleILPath,ModuleNativePath,ClrInstanceID)
+Event name: Loader/AssemblyDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40103.283326
+Event : Loader/AssemblyDCStop (6: AssemblyID,AppDomainID,AssemblyFlags,FullyQualifiedAssemblyName,BindingID,ClrInstanceID)
+Event name: Loader/ModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40103.284696
+Event : Loader/ModuleDCStop (12: ModuleID,AssemblyID,ModuleFlags,ModuleILPath,ModuleNativePath,ManagedPdbSignature,ManagedPdbAge,ManagedPdbBuildPath,NativePdbSignature,NativePdbAge,NativePdbBuildPath,ModuleILFileName)
+Event name: Loader/DomainModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40103.285317
+Event : Loader/DomainModuleDCStop (7: ModuleID,AssemblyID,AppDomainID,ModuleFlags,ModuleILPath,ModuleNativePath,ClrInstanceID)
+Event name: Loader/AssemblyDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40103.287651
+Event : Loader/AssemblyDCStop (6: AssemblyID,AppDomainID,AssemblyFlags,FullyQualifiedAssemblyName,BindingID,ClrInstanceID)
+Event name: Loader/ModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40103.289993
+Event : Loader/ModuleDCStop (12: ModuleID,AssemblyID,ModuleFlags,ModuleILPath,ModuleNativePath,ManagedPdbSignature,ManagedPdbAge,ManagedPdbBuildPath,NativePdbSignature,NativePdbAge,NativePdbBuildPath,ModuleILFileName)
+Event name: Loader/DomainModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40103.292536
+Event : Loader/DomainModuleDCStop (7: ModuleID,AssemblyID,AppDomainID,ModuleFlags,ModuleILPath,ModuleNativePath,ClrInstanceID)
+Event name: Loader/AssemblyDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40103.294963
+Event : Loader/AssemblyDCStop (6: AssemblyID,AppDomainID,AssemblyFlags,FullyQualifiedAssemblyName,BindingID,ClrInstanceID)
+Event name: Loader/ModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40103.481371
+Event : Loader/ModuleDCStop (12: ModuleID,AssemblyID,ModuleFlags,ModuleILPath,ModuleNativePath,ManagedPdbSignature,ManagedPdbAge,ManagedPdbBuildPath,NativePdbSignature,NativePdbAge,NativePdbBuildPath,ModuleILFileName)
+Event name: Loader/DomainModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40103.482156
+Event : Loader/DomainModuleDCStop (7: ModuleID,AssemblyID,AppDomainID,ModuleFlags,ModuleILPath,ModuleNativePath,ClrInstanceID)
+Event name: Loader/AssemblyDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40103.485937
+Event : Loader/AssemblyDCStop (6: AssemblyID,AppDomainID,AssemblyFlags,FullyQualifiedAssemblyName,BindingID,ClrInstanceID)
+Event name: Loader/ModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40103.54264
+Event : Loader/ModuleDCStop (12: ModuleID,AssemblyID,ModuleFlags,ModuleILPath,ModuleNativePath,ManagedPdbSignature,ManagedPdbAge,ManagedPdbBuildPath,NativePdbSignature,NativePdbAge,NativePdbBuildPath,ModuleILFileName)
+Event name: Loader/DomainModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40103.543352
+Event : Loader/DomainModuleDCStop (7: ModuleID,AssemblyID,AppDomainID,ModuleFlags,ModuleILPath,ModuleNativePath,ClrInstanceID)
+Event name: Loader/AssemblyDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40103.547082
+Event : Loader/AssemblyDCStop (6: AssemblyID,AppDomainID,AssemblyFlags,FullyQualifiedAssemblyName,BindingID,ClrInstanceID)
+Event name: Loader/ModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40103.549302
+Event : Loader/ModuleDCStop (12: ModuleID,AssemblyID,ModuleFlags,ModuleILPath,ModuleNativePath,ManagedPdbSignature,ManagedPdbAge,ManagedPdbBuildPath,NativePdbSignature,NativePdbAge,NativePdbBuildPath,ModuleILFileName)
+Event name: Loader/DomainModuleDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40103.550285
+Event : Loader/DomainModuleDCStop (7: ModuleID,AssemblyID,AppDomainID,ModuleFlags,ModuleILPath,ModuleNativePath,ClrInstanceID)
+Event name: Loader/AssemblyDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40103.553865
+Event : Loader/AssemblyDCStop (6: AssemblyID,AppDomainID,AssemblyFlags,FullyQualifiedAssemblyName,BindingID,ClrInstanceID)
+Event name: Loader/AppDomainDCStop (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40103.554985
+Event : Loader/AppDomainDCStop (5: AppDomainID,AppDomainFlags,AppDomainName,AppDomainIndex,ClrInstanceID)
+Event name: EventID(10) (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40103.555994
+Event : EventID(10) (0: )
+Event name: Method/DCStopComplete (from provider Microsoft-Windows-DotNETRuntimeRundown), timestamp: 12/04/2023 07:24:19, relative: 40103.556374
+Event : Method/DCStopComplete (1: ClrInstanceID)
