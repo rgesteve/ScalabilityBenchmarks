@@ -71,7 +71,12 @@ public class Program
 	Console.WriteLine($"At a sample interval of {trace.SampleProfileInterval.GetType()}.");
 
 	foreach (var evt in trace.Events) {
-	  Console.WriteLine($"Event name: {evt.EventName}, timestamp: {evt.TimeStamp}");
+	  Console.WriteLine($"Event name: {evt.EventName} (from provider {evt.ProviderName}), timestamp: {evt.TimeStamp}, relative: {evt.TimeStampRelativeMSec}");
+  	  Console.WriteLine($"Event : {evt.EventName} ({evt.PayloadNames.Length}: {string.Join(',', evt.PayloadNames)})");
+	  if (evt.EventName == "Connection/Start" || evt.EventName == "Connection/Stop") {
+	    var connId = evt.PayloadByName("connectionId");
+    	    Console.WriteLine($"*** Event : {connId}.");
+	  }
 	}
 
 #if false
