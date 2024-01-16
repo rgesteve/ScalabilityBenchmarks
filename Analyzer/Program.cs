@@ -10,7 +10,9 @@ using System.CommandLine.Hosting;
 using System.CommandLine.NamingConventionBinder;
 using System.CommandLine.Parsing;
 
+using Microsoft.Diagnostics.Symbols;
 using Microsoft.Diagnostics.Runtime;
+using Microsoft.Diagnostics.Tracing;
 using Microsoft.Diagnostics.Tracing.Etlx;
 using Microsoft.Diagnostics.Tracing.Parsers;
 using Microsoft.Diagnostics.Tracing.Parsers.Clr;
@@ -71,6 +73,7 @@ public class Program
 	Console.WriteLine($"Got a trace with {trace.Processes.Count()} processes.");
 	Console.WriteLine($"At a sample interval of {trace.SampleProfileInterval.GetType()}.");
 
+#if false
 	Dictionary<string, Period> corr = new();
 
 	foreach (var evt in trace.Events) {
@@ -96,6 +99,24 @@ public class Program
 	  }
 	}
  	Console.WriteLine($"*** calculated {durations.Count} for this run, with an average of: {durations.Average()}.");
+#else
+	using (SymbolReader symReader = new(TextWriter.Null) { SymbolPath = SymbolPath.MicrosoftSymbolServerPath }) {
+	  MutableTraceEventStackSource stackSource = new(trace) {
+	    OnlyManagedCodeStacks = true
+	  };
+	  SampleProfilerThreadTimeComputer computer = new(trace, symReader) {
+	    IncludeEventSourceEvents = false
+	  };
+	  computer.GenerateThreadTimeStacks(stackSource);
+ 	  // Console.WriteLine($"*** At this point in the run, source is: [ {trace.Events.GetSource()} ]");
+	  stackSource.ForEach( (sample) => {
+	    StackSourceCallStackIndex stackIndex = sample.StackIndex;
+	    var frameName = stackSource.GetFrameName(stackSource.GetFrameIndex(stackIndex), true);
+       	    Console.WriteLine($"stack index: {stackIndex}, frame name: {frameName}, sample index {sample.SampleIndex}, time: {sample.TimeRelativeMSec}.");
+	  });
+   	  Console.WriteLine($"*** Done!");
+	}
+#endif
 
 #if false
 	var evstacks = new TraceEventStackSource(trace.Events);
